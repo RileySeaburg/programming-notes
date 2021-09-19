@@ -55,7 +55,7 @@ To overcome this lack of certainty Typescript offers an assertion operator avail
 
 #### Typescript Assertion Example
 ```
-const sectionHeadline: sectionHeadlineType = sectionText!.sectionHeadline!;
+ const headlineText: sectionHeadlineType = sectionHeadline!;
 ```
 
 As you can see this #operator gets attached to the end of an #object when chaining or #destructing to inform Typescript that "you know what you're doing" and that you know the #data will be available as that #type.
